@@ -43,11 +43,27 @@ defined('ABSPATH') or die( 'Hey, You can\t access this file, You silly Human!' )
 
 class SoePaing
 {
-  function __construct($string) {
-    echo $string;
+  function activate() {
+
+  }
+
+  function deactivate() {
+
+  }
+
+  function uninstall() {
+
   }
 }
 
 if ( class_exists('SoePaing') ) {
-  $soePaing = new SoePaing( 'SP initialezed!' ) ;
+  $soePaing = new SoePaing();
 }
+
+//activation
+register_activation_hook(__FILE__, array( $soePaing, 'activate' ) );
+
+//deactivation
+register_deactivation_hook(__FILE__, array( $soePaing, 'deactivate' ) );
+
+//uninstall
