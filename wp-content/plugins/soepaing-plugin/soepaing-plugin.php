@@ -43,16 +43,25 @@ defined('ABSPATH') or die( 'Hey, You can\t access this file, You silly Human!' )
 
 class SoePaing
 {
-  function activate() {
+  function __construct() {
+    add_action( 'init', array( $this, 'custom_post_type' ) );
+  }
 
+  function activate() {
+    $this->custom_post_type();
+    flush_rewrite_rules();
   }
 
   function deactivate() {
-
+    flush_rewrite_rules();
   }
 
   function uninstall() {
 
+  }
+
+  function custom_post_type() {
+    register_post_type( 'book', ['public' => true, 'label' => 'Books'] );
   }
 }
 
