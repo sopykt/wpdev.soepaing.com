@@ -39,13 +39,15 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
-if ( ! defined('ABSPATH') ) {
-  die;
-}
-
 defined('ABSPATH') or die( 'Hey, You can\t access this file, You silly Human!' );
 
-if ( ! function_exists( 'add_action' ) ) {
-  echo 'Hey, You can\t access this file, You silly Human!';
-  exit;
+class SoePaing
+{
+  function __construct($string) {
+    echo $string;
+  }
+}
+
+if ( class_exists('SoePaing') ) {
+  $soePaing = new SoePaing( 'SP initialezed!' ) ;
 }
