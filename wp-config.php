@@ -25,6 +25,7 @@ define('NONCE_SALT',       'p&&7#]d&N+]3p~i3}>zoP%-@XR6Gwy,X<S c/Wl$jE7P;5.=X6e]
 $table_prefix = 'wp_';
 
 define( 'WP_DEBUG', true);
+define( 'WP_DEBUG_LOG', true);
 
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
