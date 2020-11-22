@@ -58,7 +58,7 @@ if ( function_exists( 'wp_body_open' ) ) {
  */
 do_action( 'zakra_action_before' );
 ?>
-test1
+
 <?php
 /**
  * Hook - zakra_action_before_header
@@ -67,7 +67,7 @@ test1
  */
 do_action( 'zakra_action_before_header' );
 ?>
-test2
+
 <?php
 /**
  * Hook - zakra_action_header_top
