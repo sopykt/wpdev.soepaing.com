@@ -58,7 +58,7 @@ if ( function_exists( 'wp_body_open' ) ) {
  */
 do_action( 'zakra_action_before' );
 ?>
-test1
+
 <?php
 /**
  * Hook - zakra_action_before_header
@@ -67,7 +67,7 @@ test1
  */
 do_action( 'zakra_action_before_header' );
 ?>
-test2
+
 <?php
 /**
  * Hook - zakra_action_header_top
@@ -76,7 +76,7 @@ test2
  */
 do_action( 'zakra_action_header_top' );
 ?>
-test3
+
 <?php
 /**
  * Hook - zakra_action_before_header_main
@@ -85,7 +85,7 @@ test3
  */
 do_action( 'zakra_action_before_header_main' );
 ?>
-test4
+
 <?php
 /**
  * Hook - zakra_action_header_main
@@ -94,7 +94,7 @@ test4
  */
 do_action( 'zakra_action_header_main' );
 ?>
-test5
+
 <?php
 /**
  * Hook - zakra_action_after_header_main
@@ -103,7 +103,7 @@ test5
  */
 do_action( 'zakra_action_after_header_main' );
 ?>
-test6
+
 <?php
 /**
  * Hook - zakra_action_after_header
@@ -112,7 +112,7 @@ test6
  */
 do_action( 'zakra_action_after_header' );
 ?>
-test7
+
 <?php
 /**
  * Hook - zakra_action_before_content.
