@@ -14,3 +14,6 @@ Updated: 2020-11-19 14:29:00
 .tg-site-header-bottom {
   background: rgba(255,255,255, 0.3);
 }
+.custom-logo {
+  max-height: 100px !important;
+}
