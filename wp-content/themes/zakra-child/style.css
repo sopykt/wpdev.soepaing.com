@@ -17,3 +17,11 @@ Updated: 2020-11-19 14:29:00
 .custom-logo {
   max-height: 100px !important;
 }
+
+.tg-site-footer-widgets {
+    background-color: #081726;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
