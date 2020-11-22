@@ -46,7 +46,7 @@
 		 *
 		 * @hooked zakra_footer_bottom_bar - 10
 		 */
-		do_action( 'zakra_action_footer_bottom_bar' );
+		/* do_action( 'zakra_action_footer_bottom_bar' ); */
 		?>
 </div>
 
