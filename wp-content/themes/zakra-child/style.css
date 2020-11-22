@@ -10,7 +10,7 @@ Version: 1.5.3.1605772740
 Updated: 2020-11-19 14:29:00
 
 */
-
+/*
 .tg-site-header-bottom {
   background: rgba(255,255,255, 0.3);
 }
@@ -19,9 +19,10 @@ Updated: 2020-11-19 14:29:00
 }
 
 .tg-site-footer-widgets {
-    /* background-color: #0071BC; */
+     background-color: #0071BC; 
 }
 
 .spkt-tohide {
   display: none !important;
 }
+*/
