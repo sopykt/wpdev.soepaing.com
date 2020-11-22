@@ -47,7 +47,7 @@
 		 */
 		do_action( 'zakra_action_footer_bottom_bar' );
 		?>
-
+<div class="lwincpr">Lwin Copyright</div>
 	<?php
 		/**
 		 * Hook - zakra_action_after_footer
