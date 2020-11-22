@@ -65,7 +65,9 @@ do_action( 'zakra_action_before' );
  *
  * @hooked zakra_header_start - 10
  */
+ test1
 do_action( 'zakra_action_before_header' );
+test2
 ?>
 
 <?php
