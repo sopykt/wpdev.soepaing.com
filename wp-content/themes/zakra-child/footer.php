@@ -39,6 +39,7 @@
 		do_action( 'zakra_action_footer_widgets' );
 		?>
 
+<div class="spkt-tohide">
 		<?php
 		/**
 		 * Hook - zakra_action_footer_bottom_bar
@@ -47,6 +48,8 @@
 		 */
 		do_action( 'zakra_action_footer_bottom_bar' );
 		?>
+</div>
+
 <div class="tg-site-footer-bar tg-site-footer-bar--center">
 	<div class="tg-container tg-container--flex tg-container--flex-top">
 		<div class="tg-site-footer-section-1">
@@ -54,6 +57,7 @@
 		</div>
 	</div>
 </div>
+
 	<?php
 		/**
 		 * Hook - zakra_action_after_footer
